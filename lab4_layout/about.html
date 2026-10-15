@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html" class="active">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+    <section id="hero">
+        <h1>About</h1>
+        <p>Mengenal lebih dekat pemilik halaman ini, portfolio, dan latar belakang pendidikan.</p>
+    </section>
+    <section id="wrapper">
+        <section id="main">
+        <article class="entry profile">
+            <h2>Tentang Saya</h2>
+            <img src="images/img-150.png" alt="Foto profil">
+            <p>Halo, saya Guruh Khaerullah Kusvhi, mahasiswa Teknik Informatika Universitas Pelita Bangsa.
+            Saya tertarik pada pengembangan web, backend API, dan teknologi untuk membantu usaha kecil
+            maupun rantai pasok.</p>
+            <ul class="skills">
+                <li>HTML</li><li>CSS</li><li>PHP / Laravel</li><li>Git &amp; GitHub</li>
+            </ul>
+        </article>
+        <hr class="divider" />
+        <h2 class="section-title">Portfolio</h2>
+        <div class="row">
+            <div class="box">
+                <img src="images/img-120-orange.png" alt="" class="image-circle">
+                <h3>Guguchabi</h3>
+                <p>Usaha cuci mobil dan motor beserta sistem pendukungnya.</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+            <div class="box">
+                <img src="images/img-120-blue.png" alt="" class="image-circle">
+                <h3>Sela Caffe</h3>
+                <p>Platform keterlacakan (traceability) rantai pasok ekspor kopi Indonesia.</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+            <div class="box">
+                <img src="images/img-120-teal.png" alt="" class="image-circle">
+                <h3>Desa Digital API</h3>
+                <p>API Laravel untuk sistem Desa Digital.</p>
+                <a href="#" class="btn btn-default">View detail</a>
+            </div>
+        </div>
+        <hr class="divider" />
+        <article class="entry">
+            <h2>Pendidikan</h2>
+            <p>S1 Teknik Informatika, Universitas Pelita Bangsa, Bekasi.</p>
+        </article>
+        </section>
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Widget Header</h3>
+                <ul>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                </ul>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Widget Text</h3>
+                <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+</div>
+</body>
+</html>
