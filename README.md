@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Nama** | Guruh Khaerullah Kusvhi |
-| **NIM** | _(isi NIM)_ |
+| **NIM** | _(312310630)_ |
 | **Kelas** | I231C - Teknik Informatika |
 | **Mata Kuliah** | Pemrograman Web |
 
